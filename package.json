@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js"
+    "start": "node start.js",
+    "test": "node parent.js"
   },
   "keywords": [],
   "author": "",

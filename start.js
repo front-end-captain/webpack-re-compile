@@ -30,5 +30,5 @@ watcher.on("change", (filepath) => {
 
   const changed_env = process.env;
   child.kill();
-  child = child_process.fork(childPath, { detached: true, env: {} });
+  child = child_process.fork(childPath, { env: {} });
 })
