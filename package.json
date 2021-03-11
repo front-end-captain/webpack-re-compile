@@ -1,0 +1,21 @@
+{
+  "name": "webpack-re-compile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chokidar": "^3.5.1",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "html-webpack-plugin": "^4.5.2",
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
